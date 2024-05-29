@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Benotes</title>
+    <title>PlanSync</title>
     <link href="/css/inter.css" type="text/css" rel="stylesheet">
     <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="/logo_144x144.png" />

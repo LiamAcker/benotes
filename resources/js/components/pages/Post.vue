@@ -10,6 +10,7 @@
                         tabindex="1"
                         autofocus />
                     <div class="mt-4 mb-4">
+                        test
                         <Treeselect
                             v-model="selectedCollectionId"
                             :options="optionsCollections"
