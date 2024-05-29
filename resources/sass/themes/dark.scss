@@ -14,7 +14,7 @@ html.dark {
         box-shadow: 2px 3px 3px 0 rgb(0 0 0 / 50%)
     }
     .theme__sidebar__collection.router-link-exact-active-parent, .theme__sidebar__collection.router-link-exact-active {
-        @apply bg-black border-orange-600 text-gray-300;
+        @apply bg-black border-black-600 text-gray-300;
     }
     .theme__sidebar__label {
         @apply text-white font-normal;
@@ -32,7 +32,7 @@ html.dark {
             background-color: #0f1115;
         }
         .tag {
-            @apply text-orange-600 font-light;
+            @apply text-black-600 font-light;
         }
         .favicon {
             @apply bg-white;
@@ -50,7 +50,7 @@ html.dark {
         @apply text-white;
     }
     .theme__users__list_item:hover td {
-        @apply text-orange-600 bg-gray-900;
+        @apply text-black-600 bg-gray-900;
     }
     .theme__tags__list_item:nth-child(even),
     .theme__users__list_item:nth-child(even) {

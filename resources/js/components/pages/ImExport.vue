@@ -11,7 +11,7 @@
                     </div>
                     <div class="flex-1 relative">
                         <span class="absolute right-0 top-0 px-1 text-xs font-medium 
-                            text-orange-600  border rounded border-orange-600">
+                            text-black-600  border rounded border-black-600">
                             Beta
                         </span>
                         <span class="title">Import Bookmarks</span>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="flex-1 relative">
                         <span class="absolute right-0 top-0 px-1 text-xs font-medium 
-                            text-orange-600  border rounded border-orange-600">
+                            text-black-600  border rounded border-black-600">
                             Beta
                         </span>
                         <span class="title">Export Bookmarks</span>
@@ -66,7 +66,7 @@ export default {
         }
 
         .icon-wrapper {
-            @apply inline-block my-1 bg-orange-600 text-white rounded;
+            @apply inline-block my-1 bg-black-600 text-white rounded;
         }
 
         .icon {

@@ -36,7 +36,7 @@ export default {
         margin-top: -0.875rem;
     }
     .tags .tag:hover {
-        @apply text-orange-600;
+        @apply text-black-600;
     }
 }
 </style>

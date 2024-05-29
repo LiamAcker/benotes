@@ -11,7 +11,7 @@
                 <span class="block truncate mt-1 text-lg font-semibold">
                     {{ node.attrs['data-title'] }}
                 </span>
-                <span class="ul-link block mt-1 truncate text-sm text-orange-600 font-medium">
+                <span class="ul-link block mt-1 truncate text-sm text-black-600 font-medium">
                     {{ node.attrs.href }}
                 </span>
             </div>

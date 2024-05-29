@@ -16,7 +16,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                orange: {
+                black: {
                     200: '#ffe4cc',
                     600: '#FF7700',
                     // from tailwind v1

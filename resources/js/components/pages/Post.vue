@@ -5,7 +5,7 @@
                 <div class="max-w-5xl mt-4" @keyup.ctrl.alt.83="keySave">
                     <input
                         v-model="title"
-                        class="block w-full text-3xl font-medium placeholder-orange-600 text-orange-600 bg-transparent outline-none"
+                        class="block w-full text-3xl font-medium placeholder-black-600 text-black-600 bg-transparent outline-none"
                         placeholder="Title"
                         tabindex="1"
                         autofocus />
@@ -331,7 +331,7 @@ export default {
             pointer-events: none;
             height: 0;
             float: left;
-            @apply not-italic text-gray-600; //text-orange-600
+            @apply not-italic text-gray-600; //text-black-600
         }
         .is-empty.is-editor-empty {
             height: calc(100vh - 21rem);
@@ -343,7 +343,7 @@ export default {
     .vs__dropdown-menu {
         @apply p-0 order-2 border-gray-300 shadow-none;
         .vs__dropdown-option--highlight {
-            @apply bg-orange-500;
+            @apply bg-black-500;
         }
     }
 }
@@ -375,7 +375,7 @@ export default {
         display: none;
     }
     .vs__selected {
-        @apply pl-2 pr-1 rounded bg-orange-600 text-white border-none;
+        @apply pl-2 pr-1 rounded bg-black-600 text-white border-none;
     }
     .vs__deselect svg {
         fill: #fff;

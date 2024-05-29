@@ -66,7 +66,7 @@
                     class="switch"
                     :class="[
                         is_active
-                            ? 'bg-orange-600 border-orange-600 text-white'
+                            ? 'bg-black-600 border-black-600 text-white'
                             : 'border-gray-600 text-gray-600',
                     ]"
                     @click="is_active = !is_active">
@@ -349,7 +349,7 @@ button.switch {
     transition: color, background-color 0.2s;
 }
 button.switch:hover {
-    @apply bg-white text-orange-600;
+    @apply bg-white text-black-600;
 }
 .collection {
     input.readonly {

@@ -61,13 +61,13 @@
                     <CollectionSidebar v-for="collection in collections" :key="collection.id" :collection="collection" />
                 </ol>
             </div>
-            <router-link to="/c/create" class="block md:mx-8 mx-4 mt-4 text-orange-600 font-medium">
+            <router-link to="/c/create" class="block md:mx-8 mx-4 mt-4 text-black-600 font-medium">
                 <svg-vue class="w-4 mr-2 fill-current align-text-bottom" icon="remix/folder-add-fill" />
                 <span class="align-middle">Create a new collection</span>
             </router-link>
             <div class="w-full px-4 md:px-6 mb-0 mt-auto pt-12">
                 <svg-vue class="w-6 align-text-bottom" icon="logo_64x64" />
-                <span class="flex-1 ml-1 text-orange-600 text-xl font-medium">Benotes</span>
+                <span class="flex-1 ml-1 text-black-600 text-xl font-medium">Benotes</span>
             </div>
         </div>
     </transition>
@@ -218,7 +218,7 @@ export default {
     // outside of .list in order to be able to be overriden
     .router-link-exact-active-parent,
     .collection.router-link-exact-active {
-        @apply bg-orange-200 text-gray-700 border-orange-600 font-semibold;
+        @apply bg-black-200 text-gray-700 border-black-600 font-semibold;
     }
 }
 

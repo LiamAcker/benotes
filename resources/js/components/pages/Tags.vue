@@ -145,7 +145,7 @@ export default {
         transition: background-color 0.2s;
     }
     .row:hover td {
-        @apply bg-orange-200;
+        @apply bg-black-200;
     }
 }
 .tag-contextmenu {

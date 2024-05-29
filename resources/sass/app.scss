@@ -38,7 +38,7 @@ button:focus {
 }
 
 .button {
-    @apply border-2 border-orange-600 text-orange-600 rounded-lg
+    @apply border-2 border-black-600 text-black-600 rounded-lg
         outline-none leading-tight font-semibold text-base px-2 py-1 font-sans;
     .button-icon {
         @apply hidden;
@@ -69,7 +69,7 @@ button:focus {
 }
 
 .button:hover {
-    @apply bg-orange-600 text-white;
+    @apply bg-black-600 text-white;
 }
 
 .button.red:hover {
@@ -88,7 +88,7 @@ input.input {
 }
 
 input.input:focus {
-    @apply border-orange-600;
+    @apply border-black-600;
 }
 
 label.label {
@@ -158,7 +158,7 @@ label.label {
                 margin-top: -0.2rem;
             }
             input:checked {
-                @apply bg-orange-600 border-orange-600;
+                @apply bg-black-600 border-black-600;
                 background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik05IDE2LjE3TDQuODMgMTJsLTEuNDIgMS40MUw5IDE5IDIxIDdsLTEuNDEtMS40MXoiLz48L3N2Zz4=);
             }
             div {
@@ -196,14 +196,14 @@ label.label {
         }
 
         .vue-treeselect__option:hover {
-            @apply bg-orange-500 text-white;
+            @apply bg-black-500 text-white;
             .vue-treeselect__option-arrow-container svg {
                 fill: #fff;
             }
         }
 
         .vue-treeselect__option--selected {
-            @apply text-orange-500 bg-orange-200 font-medium;
+            @apply text-black-500 bg-black-200 font-medium;
         }
     }
 }

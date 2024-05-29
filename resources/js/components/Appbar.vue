@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed top-0 right-0 w-full bg-white z-50 border-b-2 border-orange-600 theme__appbar">
+    <div class="fixed top-0 right-0 w-full bg-white z-50 border-b-2 border-black-600 theme__appbar">
         <div class="flex sm:px-8 px-4 py-3">
             <div class="w-16 my-auto">
                 <button v-if="authUser" class="align-bottom theme__appbar__menu_icon" @click="toggleSidebar()">

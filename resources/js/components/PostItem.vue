@@ -6,8 +6,8 @@
             :permission="permission" :restore="restore" />
         <PostItemPlaceholder v-else />
         <div v-if="debug" class="absolute bottom-0 w-full">
-            <span class="px-1 bg-orange-200">id:{{ post.id }}</span>
-            <span class="px-1 bg-orange-200 float-right">o:{{ post.order }}</span>
+            <span class="px-1 bg-black-200">id:{{ post.id }}</span>
+            <span class="px-1 bg-black-200 float-right">o:{{ post.order }}</span>
         </div>
         <ContextMenu :post-id="post.id" />
     </li>
@@ -128,12 +128,12 @@ export default {
 }
 
 .card::-webkit-scrollbar-thumb {
-    @apply bg-orange-500;
+    @apply bg-black-500;
     border-radius: 8px;
 }
 
 .card.active {
-    @apply bg-orange-100 rounded border border-orange-300 overflow-auto;
+    @apply bg-black-100 rounded border border-black-300 overflow-auto;
 }
 
 .ProseMirror {

@@ -5,7 +5,7 @@
                 <div class="mb-4">
                     <svg-vue class="w-16 block m-auto" icon="logo_64x64" />
                     <span
-                        class="block my-2 text-2xl text-orange-600 font-semibold text-center align-middle">
+                        class="block my-2 text-2xl text-black-600 font-semibold text-center align-middle">
                         Benotes
                     </span>
                 </div>
@@ -43,7 +43,7 @@
                     <button class="button" type="submit">Login</button>
                     <router-link
                         to="/forgot"
-                        class="inline-block align-baseline font-semibold text-sm text-orange-600 hover:text-orange-700">
+                        class="inline-block align-baseline font-semibold text-sm text-black-600 hover:text-black-700">
                         Forgot Password?
                     </router-link>
                 </div>

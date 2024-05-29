@@ -1,13 +1,13 @@
 <template>
     <form
-        class="flex relative searchbar w-full max-w-2xl shadow-sm bg-gray-200 rounded text-gray-600 border-2 focus-in:border-orange-500 focus-in:bg-white"
+        class="flex relative searchbar w-full max-w-2xl shadow-sm bg-gray-200 rounded text-gray-600 border-2 focus-in:border-black-500 focus-in:bg-white"
         @submit.prevent="search">
         <svg-vue
             icon="remix/search-line"
             class="flex-none w-5 mx-3 fill-current text-gray-600" />
         <div v-show="searchCollection" class="flex-none my-auto">
             <div
-                class="px-2 py-0.5 rounded-xl font-medium text-white border-2 border-orange-500 bg-orange-500">
+                class="px-2 py-0.5 rounded-xl font-medium text-white border-2 border-black-500 bg-black-500">
                 {{ searchCollectionName }}
             </div>
         </div>
@@ -160,11 +160,11 @@ export default {
 <style lang="scss">
 .searchbar .isActive,
 .searchbar .searchOption:hover {
-    @apply text-orange-600 bg-orange-200; //@apply bg-gray-400;
+    @apply text-black-600 bg-black-200; //@apply bg-gray-400;
 }
 
-.focus-in\:border-orange-500:focus-within {
-    @apply border-orange-500;
+.focus-in\:border-black-500:focus-within {
+    @apply border-black-500;
 }
 
 .focus-in\:bg-white:focus-within {

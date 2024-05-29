@@ -6,7 +6,7 @@
             <div
                 class="w-5/6 max-w-xl m-auto mt-10 border-gray-400 rounded-lg bg-gray-100 theme__modal">
                 <div class="py-8 mx-6">
-                    <h2 class="mb-4 mx-1 text-3xl text-orange-600 font-bold">
+                    <h2 class="mb-4 mx-1 text-3xl text-black-600 font-bold">
                         Collections
                     </h2>
                     <p class="mb-8 mx-1 gray-600 italic leading-tight">

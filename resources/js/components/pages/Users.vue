@@ -78,7 +78,7 @@ export default {
         transition: background-color 0.2s;
     }
     .table-row:hover td {
-        @apply bg-orange-200;
+        @apply bg-black-200;
     }
 }
 </style>

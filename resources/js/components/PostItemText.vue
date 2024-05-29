@@ -5,7 +5,7 @@
                 <div class="text-gray-900 text-xl outline-none h-full w-full">
                     <p
                         v-if="post.title"
-                        class="text-orange-600 text-xl bg-transparent font-semibold">
+                        class="text-black-600 text-xl bg-transparent font-semibold">
                         {{ post.title }}
                     </p>
                     <EditorContent :editor="editor" class="editorContent" />
@@ -21,7 +21,7 @@
                 <input
                     v-if="post.title"
                     v-model="localPost.title"
-                    class="text-orange-600 text-xl bg-transparent font-semibold" />
+                    class="text-black-600 text-xl bg-transparent font-semibold" />
                 <EditorContent :editor="editor" class="editorContent" />
             </div>
             <PostItemTags v-if="!isActive" :tags="post.tags" class="item-text" />
